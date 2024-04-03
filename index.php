@@ -44,7 +44,7 @@
                     Заголовок записи
                 </span>
                 <br>
-                <input type="text" name="title">
+                <input type="text" name="title" required>
             </label>
             <br>
             <label for="" class="lbl-field new-note-content">
@@ -52,7 +52,7 @@
                     Текст записи
                 </span>
                 <br>
-                <textarea name="content" id="" cols="30" rows="10"></textarea>
+                <textarea name="content" id="" cols="30" rows="10" required></textarea>
             </label>
             <br>
             <button type="submit">

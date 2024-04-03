@@ -1,0 +1,53 @@
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.notes-list{}
+
+.notes-list-item{
+    border: 1px solid #000;
+    margin: 10px 0;
+    padding: 5px 115px 5px 5px;
+    position: relative;
+}
+
+.notes-list-item-del{
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.notes-list-item-upd{
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.notes-list-item-save{
+    display: none;
+}
+
+.js-edited[contenteditable=true]{
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.new-note{
+    border: 1px solid #000;
+    padding: 5px 10px 15px;
+}
